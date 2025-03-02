@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Northgate College</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eef2f3;
+            color: #333;
+        }
+
+        header {
+            background: #004080;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 15px 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        header img {
+            width: 80px;
+            height: auto;
+            margin-right: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: flex-start;
+            flex-grow: 1;
+        }
+
+        nav a {
+            color: white;
+            margin-right: 20px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
+        }
+
+        section {
+            padding: 30px;
+            background: white;
+            margin: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .welcome {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .gallery img {
+            width: 45%;
+            height: auto;
+            max-width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background: #004080;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="../static/logo.jpg" alt="Northgate College Logo">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about_us.html">About Us</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact_us.html">Contact Us</a>
+        <a href="course_detail.html">Courses</a>
+        <a href="fees.html">Fees</a>
+        <a href="principal_office.html">Principal's Office</a>
+    </nav>
+</header>
+
+<section>
+    <div class="welcome">Welcome to Northgate College</div>
+    <h3>Explore Our Beautiful Campus:</h3>
+    <div class="gallery">
+        <img src="../static/college-building1.jpg" alt="College Building 1">
+        <img src="../static/college-building2.jpg" alt="College Building 2">
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Northgate College. Empowering Minds, Transforming Futures.</p>
+</footer>
+
+</body>
+</html>
+
+
+
